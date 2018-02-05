@@ -18,7 +18,10 @@ body {
   margin: 0 auto;
   clear: both;
 }
-
+#profilePic {
+  border:5px;
+  border-color:#4aaaa5;
+}
 h1,
 h2,
 h3,
@@ -48,6 +51,9 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
+}
+#textPop {
+  color: #4aaaa5;
 }
 
 /* header */
@@ -194,7 +200,7 @@ h3,
 
 .auth-image {
   float: left;
-  width: 200px;
+  width: 250px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
