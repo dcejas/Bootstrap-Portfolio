@@ -2,8 +2,8 @@ body {
   font-family: 'Arsenal', sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777;
-  background: url("../images/concrete_seamless.png");
+  color: #c5c6c7;
+  background: url("../images/carbonfiber1.jpg");
 }
 
 * {
@@ -20,7 +20,7 @@ body {
 }
 #profilePic {
   border:5px;
-  border-color:#4aaaa5;
+  border-color:#45a29e;
 }
 h1,
 h2,
@@ -38,14 +38,14 @@ h2,
 h3 {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #66fcf1;
 }
 
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #66fcf1;
 }
 
 h2,
@@ -53,7 +53,7 @@ h3 {
   font-size: 22px;
 }
 #textPop {
-  color: #4aaaa5;
+  color: #66fcf1;
 }
 
 /* header */
@@ -64,9 +64,9 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
+  color: #c5c6c7;
+  background: #0b0c10;
+  border-bottom: 2px solid #66fcf1;
 }
 
 #logo {
@@ -77,10 +77,10 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #0b0c10;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #66fcf1;
 }
 
 nav {
@@ -93,9 +93,9 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: #c5c6c7;
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 1px solid #c5c6c7;
 }
 
 nav a:first-child {
@@ -108,11 +108,11 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
-  color: #ccc;
+  color: #c5c6c7;
+  color: #c5c6c7;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #0b0c10;
+  border-top: 8px solid #45a29e;
 }
 
 /* sidebar */
@@ -123,8 +123,8 @@ footer {
   max-width: 257px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #1f2833;
+  border: 1px solid #1f2833;
 }
 
 h3,
@@ -132,7 +132,7 @@ h3,
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #66fcf1;
   text-align: center;
 }
 
@@ -160,12 +160,15 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #1f2833;
+  border: 1px solid #1f2833;
 }
 
 /* portfolio page */
 
+#imgtitle {
+  font-family: 'Rock Salt', cursive;
+}
 .work {
   position: relative;
   float: left;
@@ -192,9 +195,9 @@ h3,
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color: #0b0c10;
   text-align: center;
-  background: #4aaaa5;
+  background: #66fcf1;
   border-bottom: 0;
 }
 
@@ -231,6 +234,8 @@ textarea {
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #ddd;
+  color: #0b0c10;
+  background: #c5c6c7;
 }
 
 textarea {
@@ -240,8 +245,8 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #fff;
+  color: #0b0c10;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #66fcf1;
   border: 0 none;
 }
